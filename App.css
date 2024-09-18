@@ -1,0 +1,109 @@
+header {
+    webkit-text-size-adjust: 100%;
+    font-family: Ubuntu, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    display: block;
+    width: 100%;
+    height: 500px;
+    background: #2c2e31;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+}
+
+.noidung {
+    webkit-text-size-adjust: 100%;
+    font-family: Ubuntu, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    max-width: 730px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: -200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    padding-left: 20%;
+}
+
+.the {
+    webkit-text-size-adjust: 100%;
+    font-family: Ubuntu, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    padding: 20px 0;
+    width: 100%;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 1px rgba(0, 74, 97, 0.5);
+    overflow: hidden;
+    text-align: center;
+    z-index: 5;
+}
+
+.thongtin {
+    webkit-text-size-adjust: 100%;
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+    webkit-tap-highlight-color: transparent;
+}
+
+.anhdaidien {
+    webkit-text-size-adjust: 100%;
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+    webkit-tap-highlight-color: transparent;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    background: #000000;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, .25);
+    margin-bottom: 50px;
+}
+
+img {
+    webkit-text-size-adjust: 100%;
+    font-family: Ubuntu, sans-serif;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    background: #ffffff9c;
+    padding: 5px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    bottom: 5px;
+    margin-bottom: 0px;
+}
+
+.the:after {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    top: 0;
+    background: #f9f9f9;
+    border-bottom: 1px solid rgba(0, 0, 0, .15);
+    z-index: -1;
+}
+
+button {
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+    color: #fff;
+    background-color: #2c2e31;
+    padding: 15px;
+    font-size: 15px;
+    border: 1.5px solid #333;
+    cursor: pointer;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
